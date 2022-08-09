@@ -1,0 +1,137 @@
+:root {
+  --first-bg: #b61414;
+  --seconnd-bg: #8e1010;
+}
+.header {
+  background: #1b1b1b;
+  border-bottom: solid 1px #ffdf00;
+  padding: 10px 15px;
+}
+.avilable a img {
+  width: 140px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+.avilable p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.logo {
+  margin-right: 15px;
+}
+.header-nav ul li a {
+  color: #fff;
+  font-size: 20px;
+}
+.header-nav ul li a.active, .header-nav ul li a:hover {
+  color: #ffdf00;
+}
+.header-nav ul li.dropdown .dropdown-menu {
+  background: linear-gradient(#b61414, #8e1010);
+  border: solid 1px #ffdf00;
+  color: #efd78c;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.70);
+}
+.header-nav ul li.dropdown .dropdown-menu li a {
+  color: #efd78c;
+  font-size: 16px;
+}
+.header-nav ul li.dropdown .dropdown-menu li a: hover {
+  background: #4a1819;
+color: #efd78c;
+}
+
+.navinput input{
+  background: url(../img/search.svg), #4a1819;
+background-repeat: no-repeat;
+background-size: 15px;
+background-position: 5px;
+padding: 3px;
+padding-left: 27px;
+font-size: 15px;
+color: #ffffff;
+border-radius: 7px;
+border-color: rgba(255, 255, 255, 0.08);
+width: 100%;
+outline: none
+}
+.navinput {
+  padding-left: 15px;
+  width: 130px;
+}
+.sectionbg{background: linear-gradient(var(--first-bg), var(--seconnd-bg));}
+.avilablesection img {
+  margin: 10px 5px;
+}
+.hcolr {
+  color: #efd78c;
+}
+.avilablesection p {
+  font-size: 30px;
+  padding-right: 10px;
+}
+.patternbg{
+  background: url('../img/pattern_1.png') #1b1b1b left top repeat;
+}
+.cardtext {
+  background: #f1b51c;
+  text-align: center;
+  border-radius: 0 0 6px 6px;
+  padding: 5px;
+}
+.cardcontent * {
+  transition: all .4s linear;
+}
+.cardtext h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+.cardcontent {
+  border-radius: 6px;
+}
+.cardcontent img {
+  border-radius: 6px 6px 0 0;
+}
+.cardcontent:hover .cardtext {
+  background: linear-gradient(var(--first-bg), var(--seconnd-bg));
+}
+.cardcontent:hover img {
+  transform: scale(1.1);
+}
+.section-pd {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sectionBg {
+  background: url('../img/sectionBg.png');
+}
+.icon-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.icon-list ul li {
+  padding: 0 15px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.icon-list ul li a img {
+  width: 100%;
+}
+.footerlink ,.footersocial{flex-wrap: wrap;list-style: none;}
+.footersocial img {
+  padding: 7px;
+}
+.footerlink li a{
+  padding: 10px;
+  text-decoration: none;
+}
+.footerlink li a:hover {
+  color: #fff;
+}
+.logo img {
+  width: 67px;
+}
