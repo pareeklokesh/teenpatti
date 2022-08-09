@@ -222,6 +222,52 @@ float: left;
   width: 60% !important;
   margin: 0px auto;
 }
+.list-m li {
+  margin-bottom: 15px;
+}
+.variation-tab {
+  padding: 5px 5px;
+  background: #420400;
+  border-radius: 6px;
+  border: 0;
+}
+.variation-tab li button {
+  background: transparent !important;
+  color: #efd78c !important;
+  position: relative;
+  padding: 14px 15px 15px 14px;
+  border: solid 1px #efd78c !important;
+  width: 100%;
+  border-radius: 6px !important;
+}
+.variation-tab li button.active {
+  background: linear-gradient(#b61414, #8e1010) !important;
+}
+.variation-tab li {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+}
+.variation-tab-content {
+  background: linear-gradient(#b61414, #8e1010);
+  padding: 15px;
+  border: solid 1px #efd78c;
+  border-radius: 6px;
+}
+.textchange {
+  color: #ffdf00 !important;
+font-weight: bold;
+padding: 10px;
+display: block;
+padding-left: 0;
+}
+.page-title {
+
+}
+.page-title {
+  padding: 10px 0;
+color: #ffdf00;
+}
 
 
 @media (max-width: 1200px) {
