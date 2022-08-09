@@ -12,10 +12,11 @@
   
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
-
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
 </head>
 <body>
   <div class="container-fluid header">
@@ -180,40 +181,64 @@
   </div>
 </div>
 
-<div class="container-fluid patternbg section-pd">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="w-100 cardcontent">
-          <div class="w-100 overflow-hidden">
-        <img class="w-100" src="assets/img/widget_04.png" />
-      </div>
-      <div class="cardtext">
-        <h3 class="m-0">Download Bonus</h3>
-      </div>
+
+      <div class="container-fluid testimonial patternbg section-pd">
+  <div class="container position-relative">
+    <div class="w-auto" style="padding-bottom: 30px;">
+      <h2 class="testimonial-title hcolr text-center">Testimonial</h2>
+    </div>
+  
+  <div class="w-100 loop owl-carousel owl-theme">
+    <div class="item">
+      <div class="d-flex align-items-center">
+        <div class="w-100 w-auto testimonialfirst testimonialfull">
+          <img class="testionial-user" src="assets/img/user1.png" />
+          
+        
+        <div class="w-100 w-auto testimonialfull">
+          <p class="text-center"> Game play is smooth, i used to play everyday and really won a good amount of money. Interface is good. </p>
+          <p class="testionial-name text-center">
+            <strong>Deepak</strong>
+            Delhi
+          </p>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="w-100 cardcontent">
-          <div class="w-100 overflow-hidden">
-        <img class="w-100" src="assets/img/widget_05.png" />
-      </div>
-      <div class="cardtext">
-        <h3 class="m-0">Connect Facebook</h3>
-      </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="w-100 cardcontent">
-          <div class="w-100 overflow-hidden">
-        <img class="w-100" src="assets/img/widget_06.png" />
-      </div>
-      <div class="cardtext">
-        <h3 class="m-0">Daily Bonus</h3>
-      </div>
         </div>
       </div>
     </div>
+    <div class="item">
+      <div class="d-flex align-items-center">
+        <div class="w-100 w-auto testimonialfirst testimonialfull">
+          <img class="testionial-user" src="assets/img/user1.png" />
+          
+        
+        <div class="w-100 w-auto testimonialfull">
+          <p class="text-center">Game show is proper, have multiple tables to play game each with different entry amount.</p>
+          <p class="testionial-name text-center">
+            <strong>Nisha Singh</strong>
+            Mumbai
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="d-flex align-items-center">
+        <div class="w-100 w-auto testimonialfirst testimonialfull">
+          <img class="testionial-user" src="assets/img/user1.png" />
+          
+        
+        <div class="w-100 w-auto testimonialfull">
+          <p class="text-center"> From deposit to withdraw, every process is fair in this app, good game screens. </p>
+          <p class="testionial-name text-center">
+            <strong>Vijay</strong>
+            Delhi
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
   </div>
 </div>
 
@@ -323,16 +348,16 @@
         </ul>
         <ul class="d-flex p-0 footersocial justify-content-center footerlink" style="padding-top: 50px !important;">
           <li><a href="#" class="hcolr">Home</a></li>
-          <li><a href="#" class="hcolr">FAQs</a></li>
-          <li><a href="#" class="hcolr">Legal/Privacy</a></li>
+          <!-- <li><a href="#" class="hcolr">FAQs</a></li>
+          <li><a href="#" class="hcolr">Legal/Privacy</a></li> -->
           <li><a href="#" class="hcolr">Terms and Conditions</a></li>
           <li><a href="#" class="hcolr">Support</a></li>
-          <li><a href="#" class="hcolr">Learn Teen Patti</a></li>
-          <li><a href="#" class="hcolr">More</a></li>
+          <!-- <li><a href="#" class="hcolr">Learn Teen Patti</a></li>
+          <li><a href="#" class="hcolr">More</a></li> -->
         </ul>
-        <p class="text-white text-center">Copyright © 2012 - 2017 Octro, Inc.<br>
+        <!-- <p class="text-white text-center">Copyright © 2012 - 2017 Octro, Inc.<br>
           <span class="text-white" style="font-size: 14px;"> No portion of the Octro, Inc. WWW sites, which includes this site, may be copied or redistributed in any manner without the express written consent of Octro, Inc.</span>
-        </p>
+        </p> -->
       </div>
       
     </div>
@@ -340,6 +365,22 @@
 </div>
 
 <!-- Footer End ! -->
+
+<script>
+  jQuery(document).ready(function($) {
+              $('.loop').owlCarousel({
+                center: true,
+                items: 1,
+                loop: true,
+                margin: 10,
+                responsive: {
+                  600: {
+                    items: 1
+                  }
+                }
+              });
+              });
+</script>
 
 </body>
 </html>
