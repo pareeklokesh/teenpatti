@@ -23,7 +23,7 @@
   color: #fff;
   font-size: 20px;
 }
-.header-nav ul li a.active, .header-nav ul li a:hover {
+.header-nav ul li a.active, .header-nav ul li a:hover, .header-nav ul li a:focus {
   color: #ffdf00;
 }
 .header-nav ul li.dropdown .dropdown-menu {
@@ -37,7 +37,7 @@
   color: #efd78c;
   font-size: 16px;
 }
-.header-nav ul li.dropdown .dropdown-menu li a: hover {
+.header-nav ul li.dropdown .dropdown-menu li a:hover {
   background: #4a1819;
 color: #efd78c;
 }
