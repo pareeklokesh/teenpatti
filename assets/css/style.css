@@ -393,6 +393,13 @@ width: 75% !important;padding-right: 0;
   .testimonial .w-auto p {
   font-size: 14px;
 }
+.container.my-style {
+    max-width: 95%;
+}
+.container.my-style .col-md-6 .col1 a, .container.my-style .col-md-6 .col1 h5 {
+    word-break: break-all;
+    font-size: 15px;
+}
   .mobileshow {
     display: block;
   }
