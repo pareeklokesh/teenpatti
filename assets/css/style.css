@@ -362,7 +362,9 @@ input[type="number"] {
   }
   .testimonialfirst.testimonialfull {
   width: 100% !important;
+padding: 0 40px;
 }
+
   .mobilenav {
     padding: 0;width: 100% !important;
   }
@@ -388,6 +390,9 @@ width: 75% !important;padding-right: 0;
 
 }
 @media (max-width: 767px) {
+  .testimonial .w-auto p {
+  font-size: 14px;
+}
   .mobileshow {
     display: block;
   }
