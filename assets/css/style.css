@@ -273,6 +273,52 @@ color: #ffdf00;
   margin-top: 15px;
 }
 
+/*Support Page*/
+
+.support-banner {
+  background: url('../img/banner.jpg')no-repeat;
+  min-height: 400px;background-size: cover;
+}
+.my-style {
+  max-width: 980px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgb(66 66 66 / 8%), 0 1px 3px 1px rgb(66 66 66 / 16%);
+  padding: 60px 105px 80px 105px;
+}
+.cn_bold2 {
+  font-size: 20px;
+  padding: 0 0 20px 0;
+}
+.my-style .form-control {
+  display: block;
+  border-radius: 17px !important;
+}
+.my-style .form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-bottom: 30px;
+}
+.my-style textarea.form-control {
+  height: auto;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+
+/*Support End !*/
+
 
 @media (max-width: 1200px) {
   .navinput {
@@ -281,6 +327,9 @@ color: #ffdf00;
 }
 
 @media (max-width: 991px) {
+  .my-style {
+  padding: 60px 15px 60px 15px;
+}
   .mobilemenu {
     display: block;
   }
