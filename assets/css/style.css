@@ -319,6 +319,25 @@ input[type="number"] {
 
 /*Support End !*/
 
+.download-btn {
+  border: solid 1px #ffdf00;
+  font-size: 16px;
+  padding: 5px 12px;
+  border-radius: 34px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  transition: all .4s linear;
+}
+.download-btn:hover {
+  background: #ffdf00;
+  color: #000;
+}
+.avilablesection {
+  padding: 15px 0;
+}
+.mobileshow {
+  display: none;
+}
 
 @media (max-width: 1200px) {
   .navinput {
@@ -364,6 +383,9 @@ width: 75% !important;padding-right: 0;
 
 }
 @media (max-width: 767px) {
+  .mobileshow {
+    display: block;
+  }
   .avilablesection {
   flex-wrap: wrap;
 }
