@@ -1,8 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <title>Teen Patti | Play Indian Card Game – Flash/Teen Patti/3 Patti/Tin Patti</title>
+  
+
+  
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.min.js"></script>
-<div class="full"></div>
-<script>
-	$(document).ready(function(){
-		debugger
-	$('.full').load('teen-patti-variation.html');
-	});
-</script>
+<script src="assets/js/owl.carousel.js"></script>
+</head>
+<body>
+
+ <!-- Header -->
+  <div class="container-fluid header">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="w-auto logonav">
+          <div class="d-flex align-items-center">
+            <div class="logo">
+              <img src="assets/img/logo.png" />
+            </div>
+            <div class="avilable mobileshow">
+              
+              <div class="d-flex">
+                <a href="#" class="download-btn sectionBg hcolr">
+                  Download Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-auto mobilemenu">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+        <div class="w-auto mobilenav">
+          <nav class="navbar navbar-expand-lg header-nav">
+    
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
+        <li class="nav-item ">
+          <a class="nav-link " href="teenpatti.html" id="navbarDropdown">Teen Patti</a>
+          
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="variations" role="button" data-bs-toggle="dropdown" aria-expanded="false">Variations</a>
+          <ul class="dropdown-menu" aria-labelledby="variations">
+            <li><a class="dropdown-item" href="ak47.html">AK47</a></li>
+            <li><a class="dropdown-item" href="muflis.html">Muflis</a></li>
+            <li><a class="dropdown-item" href="joker.html">Joker</a></li>
+            <li><a class="dropdown-item" href="hukum.html">Hukum</a></li>
+            <li><a class="dropdown-item" href="lowestjoker.html">Lowest joker</a></li>
+            <li><a class="dropdown-item" href="highestjoker.html">Highest joker</a></li>
+            <li><a class="dropdown-item" href="x_boot.html">10x_boot</a></li>
+            <li><a class="dropdown-item" href="triplet.html">Triplet</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="howtoplay" role="button" data-bs-toggle="dropdown" aria-expanded="false">How to play</a>
+          <ul class="dropdown-menu" aria-labelledby="howtoplay">
+            <li><a class="dropdown-item" href="teenpatti.html">Teen Patti</a></li>
+            <li><a class="dropdown-item" href="teen-patti-variation.html">Teen Patti Variation</a></li>
+            <li><a class="dropdown-item" href="#">Andar Bahar Pro</a></li>
+            <li><a class="dropdown-item" href="#">Dragon Tiger</a></li>
+             
+            
+          </ul>
+        </li>
+        <!-- <li class="nav-item navinput">
+          <input type="text" autocomplete="off" id="onselect" placeholder="Search" class="es-input">
+        </li> -->
+        
+
+      </ul>
+    </div>
+</nav>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Header End ! -->
+
+<div class="w-100 sectionbg">
+  <h1 class="page-title m-0 text-center">Teen Patti Variation</h1>
+</div>
+
+<div class="container-fluid patternbg section-pd">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="nav nav-tabs variation-tab" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Joker</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">AK47</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Muflis</button>
+  </li>
+
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="hukum-tab" data-bs-toggle="tab" data-bs-target="#hukum" type="button" role="tab" aria-controls="contact" aria-selected="false">Hukum</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="lowestjoker-tab" data-bs-toggle="tab" data-bs-target="#lowestjoker" type="button" role="tab" aria-controls="contact" aria-selected="false">Lowest joker</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="highestjoker-tab" data-bs-toggle="tab" data-bs-target="#highestjoker" type="button" role="tab" aria-controls="contact" aria-selected="false">Highest joker</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="x_boot-tab" data-bs-toggle="tab" data-bs-target="#x_boot" type="button" role="tab" aria-controls="contact" aria-selected="false">10x_boot</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="triplet-tab" data-bs-toggle="tab" data-bs-target="#triplet" type="button" role="tab" aria-controls="contact" aria-selected="false">Triplet</button>
+  </li>
+  
+</ul>
+
+
+      </div>
+      <div class="col-md-8">
+        <div class="tab-content variation-tab-content" id="myTabContent">
+  <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div class="w-100">
+      <img class="w-100" style="border-radius:6px;" src="assets/img/joker.png">
+    </div>
+    <div class="w-100">
+      <h3 class="hcolr" style="padding-bottom: 25px;">'Joker' Variation</h3>
+            <ul class="list-m">
+              <li class="text-white">3 cards will be distributed to all players from a well shuffled deck.</li>
+              <li class="text-white">The dealer pulls out one card at random after dealing cards to players and nominates all other card of same rank/strength/number as jokers (wild card).<br>
+          <b class="hcolr">Example: –</b> If wild card is - A♠, then jokers in the game will be A♣, A♦ &amp; A♥.</li>
+              <li class="text-white">Betting rules remain same as of simple Teen Patti game.</li>
+        <li class="text-white"><b class="hcolr">Example: -</b> After dealing cards to players, Dealer pulls &amp; nominates “8♣” as joker. Let’s assume, we get A♥-K♥-8♦. Since any card of “8” will act as joker. Therefore, Final hand with us will be - A♥-K♥-Q♥ (Joker)</li>
+            </ul>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="w-100">
+      <img class="w-100" style="border-radius:6px;" src="assets/img/ak47.png">
+    </div>
+    
+    <div class="w-100">
+      <h3 class="hcolr" style="padding-bottom: 25px;">'AK47' Variation</h3>
+      <p class="text-white">The name is derived from the famous weapon “AK47 rifle”.</p>
+      <ul>
+              <li class="text-white">In this 3-patti variation - A(♠♥♦♣), K(♠♥♦♣), 4(♠♥♦♣), 7(♠♥♦♣) of all suits are jokers or wild card.</li>
+              <li class="text-white">A player with strongest 3 Patti hand will win the game. All other rules and betting remains the same.</li>
+        <li class="text-white"><b class="hcolr">Example: –</b> let’s assume we get A♠-K♦-4♠, This will become A-A- A (as all three cards Ace, King, 4 are jokers)</li>
+        <li class="text-white"><b class="hcolr">Example: –</b> Let’s assume we get A♠-2♠-2♥ &amp; opponent has Q♥-4♥-7♣, then the winner will be opponent. (Q-4- 7 = Q-Q- Q as 4 &amp; 7 are joker, while we have 2-2- 2)</li>
+            </ul>
+    </div>
+  </div>
+
+  <div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="w-100">
+      <img class="w-100" style="border-radius:6px;" src="assets/img/muflis.png">
+    </div>
+    
+    <div class="w-100">
+      <h3 class="hcolr" style="padding-bottom: 25px;">'Muflis' Variation</h3>
+      <p class="text-white">Having a bad day and you are getting worst cards, then this game is for you.</p>
+            <ul class="list-m">
+              <li class="text-white">In “Muflis” player with the weakest 3-Patti hand will win the game.</li>
+              <li class="text-white">All rules are like normal teen patti game except a person with weakest hand is a winner.
+                <ul>
+                  <li class="text-white">Example, you have K♣-2♦-3♣ while another person has K♥-K♦-9♣, then you are the winner.</li>
+                  <li class="text-white">Example, you have A♥-A♣-A♦ while another person has K♥-K♦-K♠, then other person will win.</li>
+                </ul>
+              </li>
+            </ul>
+    </div>
+  </div>
+
+<div class="tab-pane fade" id="hukum" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="w-100">
+      <img class="w-100" style="border-radius:6px;" src="assets/img/hukum.png" alt="Hukum">
+    </div>
+    <div class="w-100">
+      <h3 class="hcolr" style="padding-bottom: 25px;">'Hukum' Variation</h3>
+      <p class="text-white">In this variation, you will be dealt with two usual cards and a joker</p>
+      <ul class="list-m">
+              <li class="text-white">In Hukum Teen Patti, all players are dealt two normal cards and one joker card.</li>
+              <li class="text-white">The joker card will substitute for any card necessary in order to make a hand.</li>
+              <li class="text-white">If there are no possible hand combinations, even with the joker card, the card will count as a High Card.</li>
+            </ul>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="lowestjoker" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="w-100">
+      <img class="w-100" style="border-radius:6px;" src="assets/img/lowestJoker.png">
+    </div>
+    <div class="w-100">
+      <h3 class="hcolr" style="padding-bottom: 25px;">'Lowest Joker' Variation</h3>
+      <p class="text-white">The lowest card will become JOKER.</p>
+      <ul class="list-m">
+              <li class="text-white">In this 3 Patti Variation, each player’s lowest ranking card in his/her hand will become Joker.</li>
+              <li class="text-white">If lowest card is in pair, then that pair is considered as two Jokers.</li>
+              <li class="text-white">Betting rules will be like normal Teen-Patti game.</li>
+        <li class="text-white"><b class="hcolr">Example: –</b> let’s assume A♠-K♥-K♣, here lowest cards are both the kings (K♥-K♣) which will act as Joker.</li>
+            </ul>
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="highestjoker" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="w-100">
+      <img class="w-100" style="border-radius:6px;" src="assets/img/highestjoker.png">
+    </div>
+    <div class="w-100">
+      <h3 class="hcolr" style="padding-bottom: 25px;">'Highest Joker' Variation</h3>
+      <p class="text-white">The highest card will become JOKER.</p>
+      <ul class="list-m">
+              <li class="text-white">In this 3 Patti Variation, each player’s highest ranking card in his/her hand will become Joker.</li>
+              <li class="text-white">If highest card is in pair, then that pair is considered as two Jokers.</li>
+              <li class="text-white">Betting rules will be like normal Teen-Patti game.</li>
+        <li class="text-white"><b class="hcolr">Example: –</b> let’s assume A♠-K♥-K♣, here highest cards are both the kings (K♥-K♣) which will act as Joker.</li>
+            </ul>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="x_boot" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="w-100">
+      <img class="w-100" style="border-radius:6px;" src="assets/img/x_boot.png" alt="10x_boot">
+    </div>
+    <div class="w-100">
+      <h3 class="hcolr" style="padding-bottom: 25px;">'10x_boot' Variation</h3>
+      
+      <ul class="list-m">
+              <li class="text-white">In this 3 Patti Variation, each player’s 10x_boot ranking card in his/her hand will become Joker.</li>
+              <li class="text-white">If 10x_boot card is in pair, then that pair is considered as two Jokers.</li>
+              <li class="text-white">Betting rules will be like normal Teen-Patti game.</li>
+        <li class="text-white"><b class="hcolr">Example: –</b> let’s assume A♠-K♥-K♣, here 10x_boot cards are both the kings (K♥-K♣) which will act as Joker.</li>
+            </ul>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="triplet" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="w-100">
+      <img class="w-100" style="border-radius:6px;" src="assets/img/triplet.png" alt="Triplet">
+    </div>
+    <div class="w-100">
+      <h3 class="hcolr" style="padding-bottom: 25px;">'Triplet' Variation</h3>
+      
+      <ul class="list-m">
+              <li class="text-white">In this 3 Patti Variation, each player’s triplet ranking card in his/her hand will become Joker.</li>
+              <li class="text-white">If triplet card is in pair, then that pair is considered as two Jokers.</li>
+              <li class="text-white">Betting rules will be like normal Teen-Patti game.</li>
+        <li class="text-white"><b class="hcolr">Example: –</b> let’s assume A♠-K♥-K♣, here triplet cards are both the kings (K♥-K♣) which will act as Joker.</li>
+            </ul>
+    </div>
+  </div>
+
+
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Footer -->
+
+<div class="container-fluid section-pd patternbg footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="hcolr text-center">We are social</h2>
+        <p class="text-white text-center">Join our Teen Patti community and share your experience with other users.</p>
+        <ul class="d-flex p-0 footersocial justify-content-center">
+          <li><a href="#"><img src="assets/img/fb.png" /></a></li>
+          <li><a href="#"><img src="assets/img/twitter.png" /></a></li>
+          <li><a href="#"><img src="assets/img/instagram.png" /></a></li>
+          <li><a href="#"><img src="assets/img/linkedin.png" /></a></li>
+          <li><a href="#"><img src="assets/img/yt.png" /></a></li>
+        </ul>
+        <ul class="d-flex p-0 footersocial justify-content-center footerlink" style="padding-top: 50px !important;">
+          <li><a href="#" class="hcolr">Home</a></li>
+          <!-- <li><a href="#" class="hcolr">FAQs</a></li>
+          <li><a href="#" class="hcolr">Legal/Privacy</a></li> -->
+          <li><a href="#" class="hcolr">Terms and Conditions</a></li>
+          <li><a href="support.html" class="hcolr">Support</a></li>
+          <!-- <li><a href="#" class="hcolr">Learn Teen Patti</a></li>
+          <li><a href="#" class="hcolr">More</a></li> -->
+        </ul>
+        <p class="text-white text-center">Copyright © 2022 teenpattisuperwin.com</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Footer End ! -->
+
+
+
+</body>
+</html>
