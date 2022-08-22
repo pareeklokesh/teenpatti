@@ -372,6 +372,10 @@ input[type="number"] {
   font-weight: 800;
   margin-bottom: 15px;
 }
+.legal_contnettext .list2 li {
+  text-transform: inherit;
+  margin-bottom: 10px;
+}
 
 @media (max-width: 1200px) {
   .navinput {
